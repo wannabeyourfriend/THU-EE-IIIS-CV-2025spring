@@ -18,7 +18,7 @@ The history and development of Computer Vision (CV) can be summarized through se
 
   - The study of human vision and biological mechanisms laid the groundwork for understanding how visual information is processed. Early research in neurophysiology and psychology provided insights into visual perception, which inspired computational models.
 
-    ![image-20250312201200398](assets\image-20250312201200398.png)
+    ![image-20250312201200398](assets/image-20250312201200398.png)
 
 - **Marr's Computational Vision (1970s-1980s)**
 
