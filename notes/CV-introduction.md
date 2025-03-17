@@ -18,7 +18,7 @@ The history and development of Computer Vision (CV) can be summarized through se
 
   - The study of human vision and biological mechanisms laid the groundwork for understanding how visual information is processed. Early research in neurophysiology and psychology provided insights into visual perception, which inspired computational models.
 
-    ![image-20250312201200398](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201200398.png)
+    ![image-20250312201200398](E:\project\CV\notes\assets\image-20250312201200398.png)
 
 - **Marr's Computational Vision (1970s-1980s)**
 
@@ -29,7 +29,7 @@ The history and development of Computer Vision (CV) can be summarized through se
     - **Representation and Algorithm**: How does it do it?
 
     - **Hardware Implementation**: How is it implemented in the brain?
-    - ![image-20250312201255419](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201255419.png)
+    - ![image-20250312201255419](E:\project\CV\notes\assets\image-20250312201255419.png)
 
   - This work emphasized the importance of mathematical modeling and hierarchical processing in vision.
 
@@ -43,7 +43,7 @@ https://www.cs.ubc.ca/%7Elowe/papers/iccv99.pdf
 
 ​	**HOG (Histogram of Oriented Gradients)**: Developed by Navneet Dalal and Bill Triggs in 2005, HOG is used for object detection, particularly for human detection. It captures the distribution of gradient orientations in an image.
 
-![image-20250312200837875](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312200837875.png)
+![image-20250312200837875](E:\project\CV\notes\assets\image-20250312200837875.png)
 
 ### 0.2 Modern (ML, DL rise)
 - **Feature Engineering and Traditional Methods (1990s-2000s)**
@@ -57,11 +57,11 @@ https://www.cs.ubc.ca/%7Elowe/papers/iccv99.pdf
   - **LeNet (1998)**: Yann LeCun's LeNet was one of the earliest CNNs, used for handwritten digit recognition. It demonstrated the potential of neural networks for image classification.
 
   - **ImageNet Challenge (2010-2017)**: The **ImageNet** Large Scale Visual Recognition Challenge (ILSVRC) spurred significant advancements in CV. **AlexNet** (2012) by Alex Krizhevsky et al. achieved state-of-the-art performance using deep CNNs, leading to widespread adoption of deep learning in CV.
-  - ![image-20250312201337189](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201337189.png)
-  - ![image-20250312201436825](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201436825.png)
+  - ![image-20250312201337189](E:\project\CV\notes\assets\image-20250312201337189.png)
+  - ![image-20250312201436825](E:\project\CV\notes\assets\image-20250312201436825.png)
 
   - **VGGNet, GoogLeNet, and ResNet**: These architectures further improved performance by introducing deeper and more complex network structures. **ResNet**, in particular, introduced residual connections to ease the training of **very deep networks**.
-  - ![image-20250312201400290](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201400290.png)
+  - ![image-20250312201400290](E:\project\CV\notes\assets\image-20250312201400290.png)
 
 ### 0.3 SOTA Models
 - **Transformer-Based Models**
@@ -72,22 +72,22 @@ https://www.cs.ubc.ca/%7Elowe/papers/iccv99.pdf
 
 - **Multi-Modal Models and Vision-Language Integration**
 
-- ![image-20250312202038322](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312202038322.png)
+- ![image-20250312202038322](E:\project\CV\notes\assets\image-20250312202038322.png)
 
   - **CLIP (Contrastive Language-Image Pre-training)**: Introduced by OpenAI in 2021, CLIP aligns text and image embeddings, enabling zero-shot classification and other vision-language tasks.
-  - ![image-20250312201809587](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201809587.png)
+  - ![image-20250312201809587](E:\project\CV\notes\assets\image-20250312201809587.png)
 
   - **SAM (Segment Anything Model)**: Developed by Meta AI, SAM allows users to segment objects in images using simple inputs like clicks or bounding boxes. It represents a significant advancement in interactive segmentation.
-  - ![image-20250312201726749](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201726749.png)
+  - ![image-20250312201726749](E:\project\CV\notes\assets\image-20250312201726749.png)
   - **Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks**
-  - ![image-20250312201927008](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312201927008.png)
+  - ![image-20250312201927008](E:\project\CV\notes\assets\image-20250312201927008.png)
 
 - **Large Language Models and General AI**
 
   - **DeepSeek-V3**: A large-scale model with 671 billion parameters, it demonstrates the potential of extremely large models for multi-modal tasks, combining vision and language capabilities.
     - **Multi-Head Latent Attention+DeepSeekMoE: Training Strong Models at Economical Costs**
-  - ![image-20250312202217779](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312202217779.png)
-  - ![image-20250312202233862](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312202233862.png)
+  - ![image-20250312202217779](E:\project\CV\notes\assets\image-20250312202217779.png)
+  - ![image-20250312202233862](E:\project\CV\notes\assets\image-20250312202233862.png)
 
   - **Sora**: A video generation model that can create high-fidelity videos from text prompts, showcasing advancements in generative AI for visual content.
 
@@ -159,11 +159,11 @@ $$
 
 | 𝑓[𝑛]                                                         | 𝑔[𝑛]                                                         | ℎ[𝑛]                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20250226162449863](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250226162449863.png) | ![image-20250226162454506](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250226162454506.png) | ![image-20250226162458314](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250226162458314.png) |
+| ![image-20250226162449863](E:\project\CV\notes\assets\image-20250226162449863.png) | ![image-20250226162454506](E:\project\CV\notes\assets\image-20250226162454506.png) | ![image-20250226162458314](E:\project\CV\notes\assets\image-20250226162458314.png) |
 
 The reason it is called a **filter**, can be understood using the Fourier transform: ℱ(𝑔)[𝑚] mainly concentrates around 0 that 𝑔 is a low-pass filter.
 
-![image-20250226171535977](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250226171535977.png)
+![image-20250226171535977](E:\project\CV\notes\assets\image-20250226171535977.png)
 
 > Convolution Theorem: The convolution of two signals$f(t)$ and$ h(t) $ in the time domain is equivalent to the product of their Fourier transforms in the frequency domain. That is:
 > $$
@@ -174,8 +174,8 @@ The convolution operation is equivalent to multiplying the frequency components 
 
 |                 $g[m] \to \mathcal{F}(g)[m]$                 |
 | :----------------------------------------------------------: |
-| ![image-20250226164450220](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250226164450220.png) |
-| ![image-20250226164500089](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250226164500089.png) |
+| ![image-20250226164450220](E:\project\CV\notes\assets\image-20250226164450220.png) |
+| ![image-20250226164500089](E:\project\CV\notes\assets\image-20250226164500089.png) |
 
 We can see that **convolution is linear** and can be expressed in terms of **matrix algebra**：𝑓[𝑛] → System 𝒢 → ℎ[𝑛]
 $$
@@ -249,7 +249,7 @@ Sobel Operator(y)
 [-1  2  1]
 ```
 
-![image-20250312205701031](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312205701031.png)
+![image-20250312205701031](E:\project\CV\notes\assets\image-20250312205701031.png)
 
 ##### Frequency Domain
 
@@ -310,7 +310,7 @@ $$
 - **Gaussian filter**
 
 
-- ![image-20250312205520608](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312205520608.png)
+- ![image-20250312205520608](E:\project\CV\notes\assets\image-20250312205520608.png)
 
   - We want nearest neighboring pixels to have the most influence on the output.
 
@@ -369,13 +369,13 @@ The descriptor vector for each keypoint is a 128-dimensional vector, capturing t
 
 #### Traditional CV Application - DPM
 
-![image-20250312211317253](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312211317253.png)
+![image-20250312211317253](E:\project\CV\notes\assets\image-20250312211317253.png)
 
 ### 1.2 Video
 
 #### 1.2.1 Representation & Compression
 
-![image-20250312203211240](C:\Users\35551\AppData\Roaming\Typora\typora-user-images\image-20250312203211240.png)
+![image-20250312203211240](E:\project\CV\notes\assets\image-20250312203211240.png)
 
 ##### I-Frame (Intra Frame)
 
